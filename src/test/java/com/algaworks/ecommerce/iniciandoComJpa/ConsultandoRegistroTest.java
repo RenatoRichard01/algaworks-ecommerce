@@ -27,6 +27,7 @@ public class ConsultandoRegistroTest {
     public void setUp(){
         entityManager = entityManagerFactory.createEntityManager();
     }
+    
     //Executado depois de cada um dos testes.
     @After
     public void tearDown(){
