@@ -14,6 +14,7 @@ import java.util.Objects;
 @Entity
 @Table(name="produto")
 public class Produto {
+    
     @EqualsAndHashCode.Include
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
